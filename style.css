@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+.screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#outside{
+    background-color: orange;
+    width: 100vw;
+    height: 100vh;
+}
+#box{
+    flex-direction: column;
+    background-color: yellow;
+    width: 60%;
+    height: 40%;
+    border-radius: 5px;
+}
+#question{
+    font-size: 25px;
+}
+#type{
+    margin: 5px;
+    padding: 5px;
+}
+#input{
+   height: 90%;
+   border-radius: 4px;
+}
+#button{
+    flex: 1;
+    margin: 0;
+    padding: 10px 15px;
+    background-color: peru;
+    color: powderblue;
+    border-radius: 4px;
+}
+#answer{
+    transition: ease-in 1s;
+}
