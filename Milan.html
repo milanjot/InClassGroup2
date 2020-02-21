@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="milan-app.css">
+    <title>Question box Milan</title>
 </head>
 <body>
-    
+    <div id="Screen">
+        <div id="question-box">
+             <div id="questions"> <span id="question-txt">What comes after A?</span> </div>
+                <div id="inputplusbtn">
+                    <input type="text" id="answer" class="inputbox"  oninput="CheckAnswer()" placeholder="Type your answer here...">  </input>
+                    <button onclick= "CheckAnswer()" id="question-btn"> CHECK ANSWER </button>
+                </div>
+            <div id="h_r" ></div>  
+        </div>
+    </div>
+    <script src="milan-app.js"></script>
 </body>
 </html>
